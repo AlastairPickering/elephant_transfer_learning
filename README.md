@@ -1,7 +1,7 @@
-# A scalable transfer learning workflow for extracting biological and behavioural insights from forest elephant vocalisations
+# A scalable transfer learning workflow for extracting biological and behavioural insights from forest elephant vocalizations
 
 This repository provides a workflow for extracting acoustic features from elephant vocalisations using transfer learning and unsupervised dimensionality reduction techniques.
-It includes the necessary code, data, and utility scripts to replicate the analysis.
+It includes the necessary code and utility scripts to replicate the analysis. It also includes a small sample of the original audio files. The full dataset is available upon request.
 
 ## Contents
 
@@ -10,7 +10,7 @@ It includes the necessary code, data, and utility scripts to replicate the analy
 - **`3_behaviour_demography_notebook.ipynb`:** This notebook uses the extracted acoustic features to assess how well they retain behavioural and demographic information.
 - **`audio_dir`:** Contains the raw audio recordings of elephant vocalisations.
 - **`data`:** Contains tables with metadata associated to the recordings and vocalisations (see description below for more details).
-- **`elephant_scripts`:** Contains pre-defined functions used to process each stage of the workflow
+- **`elephant_scripts`:** Contains pre-defined functions used to process each stage of the workflow. Note you will need to download the BirdNET model: https://github.com/birdnet-team/BirdNET-Analyzer
 - **`outputs`:** Contains pre-computed intermediate outputs to avoid computation-heavy steps.
 
 ## Dataset Description
