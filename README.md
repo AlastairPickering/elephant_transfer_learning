@@ -19,7 +19,7 @@ This repository analyses a dataset of African forest elephant vocalisations reco
 These recordings were collected in Dzanga-Bai clearing, Central African Republic, between September 2018 and April 2019.
 The dataset includes:
 
-1. Audio Recordings: Raw audio files of elephant vocalisations (located in the audio_dir folder).
+1. Audio Recordings: Raw audio files of elephant vocalisations (a sample of which is located in the audio_dir folder).
 2. `data/elephant_vocalisations.csv`: A table of 1254 annotated vocalisations, each with:
    - Vocalisation ID
    - Start and end time
